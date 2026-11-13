@@ -1,10 +1,10 @@
 <?php
 
-namespace gipfl\Web;
+namespace nonini\Web;
 
 class InlineForm extends Form
 {
     protected $defaultDecoratorClass = null;
 
-    protected $formCssClasses = ['gipfl-form', 'gipfl-inline-form'];
+    protected $formCssClasses = ['nonini-form', 'nonini-inline-form'];
 }

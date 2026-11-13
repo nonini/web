@@ -3,52 +3,52 @@
  *
  * @since v0.6.0
  */
-.gipfl-collapsible-control {
+.nonini-collapsible-control {
     display: block;
-    border-bottom: 1px solid @gipfl-color-gray-light;
+    border-bottom: 1px solid @nonini-color-gray-light;
     &:hover {
         cursor: pointer;
         text-decoration: none;
     }
     &::after {
-        font-family: @gipfl-icon-font;
+        font-family: @nonini-icon-font;
         content: '\f103';
         float: right;
         margin-right: 0.5em;
-        color: @gipfl-color-gray-light;
+        color: @nonini-color-gray-light;
     }
     &:hover {
         &::after {
-            color: @gipfl-color-text;
+            color: @nonini-color-text;
         }
     }
     &:focus {
         text-decoration: none;
         &::after {
-            color: @gipfl-color-main;
+            color: @nonini-color-main;
         }
     }
 }
 
-.gipfl-collapsible .collapsed {
-    :not(.gipfl-collapsible-control) {
+.nonini-collapsible .collapsed {
+    :not(.nonini-collapsible-control) {
         display: none;
     }
-    .gipfl-collapsible-control {
+    .nonini-collapsible-control {
         &::after {
             content: '\e87a';
         }
     }
 }
 
-ul.gipfl-collapsible {
+ul.nonini-collapsible {
     list-style-type: none;
     margin: 0;
     padding: 0;
     li {
         margin: 0;
     }
-    .gipfl-collapsible-control {
+    .nonini-collapsible-control {
         font-weight: bold;
         line-height: 2em;
     }

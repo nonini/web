@@ -7,8 +7,8 @@
     Web.prototype = {
         initialize: function (icinga) {
             this.icinga = icinga;
-            $(document).on('focus', 'form.gipfl-form input, form.gipfl-form textarea, form.gipfl-form select', this.formElementFocus);
-            $(document).on('click', '.gipfl-collapsible-control', this.toggleCollapsible);
+            $(document).on('focus', 'form.nonini-form input, form.nonini-form textarea, form.nonini-form select', this.formElementFocus);
+            $(document).on('click', '.nonini-collapsible-control', this.toggleCollapsible);
         },
 
         toggleCollapsible: function (ev) {

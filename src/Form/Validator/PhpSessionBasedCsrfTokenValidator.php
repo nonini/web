@@ -1,6 +1,6 @@
 <?php
 
-namespace gipfl\Web\Form\Validator;
+namespace nonini\Web\Form\Validator;
 
 class PhpSessionBasedCsrfTokenValidator extends SimpleValidator
 {

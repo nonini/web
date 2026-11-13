@@ -1,5 +1,5 @@
 {
-    "name": "gipfl/web",
+    "name": "nonini/web",
     "description": "Various web widgets",
     "type": "library",
     "license": "MIT",
@@ -14,12 +14,18 @@
     },
     "autoload": {
         "psr-4": {
-            "gipfl\\Web\\": "src"
+            "nonini\\Web\\": "src"
         }
     },
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.4",
         "ipl/html": ">=0.3",
-        "gipfl/translation": ">=0.1.1"
+        "nonini/translation": ">=0.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.3",
+        "squizlabs/php_codesniffer": "^3.7",
+        "symplify/easy-coding-standard": "^12.0.8"
     }
 }

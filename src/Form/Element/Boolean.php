@@ -1,8 +1,8 @@
 <?php
 
-namespace gipfl\Web\Form\Element;
+namespace nonini\Web\Form\Element;
 
-use gipfl\Translation\TranslationHelper;
+use nonini\Translation\TranslationHelper;
 use ipl\Html\FormElement\SelectElement;
 
 class Boolean extends SelectElement
@@ -18,7 +18,7 @@ class Boolean extends SelectElement
         ];
         if (! $this->isRequired()) {
             $options = [
-                null => $this->translate('- please choose -'),
+                '' => $this->translate('- please choose -'),
             ] + $options;
         }
 

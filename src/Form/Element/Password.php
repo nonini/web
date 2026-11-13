@@ -1,6 +1,6 @@
 <?php
 
-namespace gipfl\Web\Form\Element;
+namespace nonini\Web\Form\Element;
 
 use ipl\Html\FormElement\TextElement;
 

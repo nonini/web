@@ -1,6 +1,6 @@
 <?php
 
-namespace gipfl\Web\Form\Validator;
+namespace nonini\Web\Form\Validator;
 
 use ipl\Stdlib\Contract\Validator;
 use ipl\Stdlib\Messages;

@@ -1,6 +1,6 @@
 <?php
 
-namespace gipfl\Web;
+namespace nonini\Web;
 
 use ipl\Html\Attributes;
 use ipl\Html\BaseHtmlElement;

@@ -1,13 +1,13 @@
 <?php
 
-namespace gipfl\Web\Table;
+namespace nonini\Web\Table;
 
 use ipl\Html\BaseHtmlElement;
 use ipl\Html\Table;
 
 class NameValueTable extends Table
 {
-    protected $defaultAttributes = ['class' => 'gipfl-name-value-table'];
+    protected $defaultAttributes = ['class' => 'nonini-name-value-table'];
 
     public static function create($pairs = [])
     {

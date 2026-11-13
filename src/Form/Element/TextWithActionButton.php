@@ -1,8 +1,8 @@
 <?php
 
-namespace gipfl\Web\Form\Element;
+namespace nonini\Web\Form\Element;
 
-use gipfl\Web\Form\Decorator\DdDtDecorator;
+use nonini\Web\Form\Decorator\DdDtDecorator;
 use ipl\Html\Attributes;
 use ipl\Html\Form;
 use ipl\Html\FormElement\SubmitElement;

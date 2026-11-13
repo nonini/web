@@ -1,11 +1,12 @@
 <?php
 
-namespace gipfl\Web\Widget;
+namespace nonini\Web\Widget;
 
 use ipl\Html\BaseHtmlElement;
 use ipl\Html\Html;
 use InvalidArgumentException;
 use LogicException;
+
 use function count;
 
 class CollapsibleList extends BaseHtmlElement
@@ -13,7 +14,7 @@ class CollapsibleList extends BaseHtmlElement
     protected $tag = 'ul';
 
     protected $defaultAttributes = [
-        'class' => 'gipfl-collapsible'
+        'class' => 'nonini-collapsible'
     ];
 
     protected $defaultListAttributes;
@@ -38,7 +39,7 @@ class CollapsibleList extends BaseHtmlElement
             throw new LogicException("Cannot add item with title '$title' twice");
         }
         $item = Html::tag('li', [
-            Html::tag('a', ['href' => '#', 'class' => 'gipfl-collapsible-control'], $title),
+            Html::tag('a', ['href' => '#', 'class' => 'nonini-collapsible-control'], $title),
             $content
         ]);
 

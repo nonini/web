@@ -1,8 +1,8 @@
 <?php
 
-namespace gipfl\Web\Form\Feature;
+namespace nonini\Web\Form\Feature;
 
-use gipfl\Web\Form;
+use nonini\Web\Form;
 use ipl\Html\DeferredText;
 use ipl\Html\FormElement\BaseFormElement;
 use ipl\Html\FormElement\SubmitElement;

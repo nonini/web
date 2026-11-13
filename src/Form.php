@@ -1,12 +1,12 @@
 <?php
 
-namespace gipfl\Web;
+namespace nonini\Web;
 
 use Exception;
-use gipfl\Web\Form\Decorator\DdDtDecorator;
-use gipfl\Web\Form\Validator\AlwaysFailValidator;
-use gipfl\Web\Form\Validator\PhpSessionBasedCsrfTokenValidator;
-use gipfl\Web\Widget\Hint;
+use nonini\Web\Form\Decorator\DdDtDecorator;
+use nonini\Web\Form\Validator\AlwaysFailValidator;
+use nonini\Web\Form\Validator\PhpSessionBasedCsrfTokenValidator;
+use nonini\Web\Widget\Hint;
 use ipl\Html\BaseHtmlElement;
 use ipl\Html\Contract\FormElement;
 use ipl\Html\Error;
@@ -30,7 +30,7 @@ class Form extends iplForm
 
     protected $defaultDecoratorClass = DdDtDecorator::class;
 
-    protected $formCssClasses = ['gipfl-form'];
+    protected $formCssClasses = ['nonini-form'];
 
     /** @var boolean|null */
     protected $hasBeenSubmitted;

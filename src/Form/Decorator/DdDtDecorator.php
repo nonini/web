@@ -1,8 +1,8 @@
 <?php
 
-namespace gipfl\Web\Form\Decorator;
+namespace nonini\Web\Form\Decorator;
 
-use gipfl\Web\HtmlHelper;
+use nonini\Web\HtmlHelper;
 use ipl\Html\Attributes;
 use ipl\Html\BaseHtmlElement;
 use ipl\Html\FormDecorator\DecoratorInterface;
@@ -12,11 +12,11 @@ use ipl\Html\HtmlDocument;
 
 class DdDtDecorator extends BaseHtmlElement implements DecoratorInterface
 {
-    const CSS_CLASS_ELEMENT_HAS_ERRORS = 'gipfl-form-element-has-errors';
+    const CSS_CLASS_ELEMENT_HAS_ERRORS = 'nonini-form-element-has-errors';
 
-    const CSS_CLASS_ELEMENT_ERRORS = 'gipfl-form-element-errors';
+    const CSS_CLASS_ELEMENT_ERRORS = 'nonini-form-element-errors';
 
-    const CSS_CLASS_DESCRIPTION = 'gipfl-element-description';
+    const CSS_CLASS_DESCRIPTION = 'nonini-element-description';
 
     protected $tag = 'dl';
 

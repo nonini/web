@@ -1,6 +1,6 @@
 <?php
 
-namespace gipfl\Web\Widget;
+namespace nonini\Web\Widget;
 
 use ipl\Html\BaseHtmlElement;
 use ipl\Html\Html;
@@ -10,7 +10,7 @@ class Hint extends BaseHtmlElement
     protected $tag = 'div';
 
     protected $defaultAttributes = [
-        'class' => 'gipfl-widget-hint'
+        'class' => 'nonini-widget-hint'
     ];
 
     public function __construct($message, $class = 'ok', ...$params)
